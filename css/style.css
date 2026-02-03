@@ -57,3 +57,54 @@ p {
 .btn-secondary:hover {
     background: #633c8a;
 }
+
+
+/* SIGNUP STYLE */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    background: #ffe0e0;
+    color: #b00000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+  accent-color: #667eea;
+  width: 1.2em;
+  height: 1.2em;
+  margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 20px 0;
+}
+
+.radio-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Dashboard Style */
+.games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
