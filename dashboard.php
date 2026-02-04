@@ -29,12 +29,21 @@ if (!isset($_SESSION["user_id"])) {
             <a href="games/game2.php" class="btn">🎯 Game 2</a>
             <a href="games/game3.php" class="btn">⚡ Game 3</a>
             <a href="games/game4.php" class="btn">🎵 Game 4</a>
-
         </div>
 
         <br>
 
-        <button><a href="logout.php" class="btn btn-secondary" style="font-size: 16px;">Logout</a></button>
+        <a href="leaderboard.php" class="btn">🏆 Leaderboard</a>
+
+        <div style="margin-top: 50px;">
+            <a href="logout.php" class="btn btn-secondary" style="font-size: 16px;">Logout</a>
+        </div>
+
+        <!-- <a href="leaderboard.php" class="btn">🏆 Leaderboard</a> -->
+
+        <br>
+
+        
 
     </div>
 
