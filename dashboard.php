@@ -20,7 +20,7 @@ if (!isset($_SESSION["user_id"])) {
 
     <div class="container">
 
-        <h1>Welcome, <?= htmlspecialchars($_SESSION["username"]) ?></h1>
+        <h1>Welcome, <?= htmlspecialchars($_SESSION["username"]) ?>!</h1>
 
         <p>Choose a game and relax!</p>
 
